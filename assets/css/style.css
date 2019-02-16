@@ -19,3 +19,18 @@ body{
     width:500px;
 
 }
+
+.cont-header{
+
+    color:black;
+    border-bottom-style:solid;
+    border-bottom-color: darkgreen;
+
+}
+.card-text{
+
+    background-color:darkgreen;
+    color:white;
+    font: 8px;
+    text-align:center;
+}
