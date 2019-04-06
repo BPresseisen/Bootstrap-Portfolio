@@ -10,13 +10,13 @@ head{
 body{
 
     background-color: #dddddd;
-    position:fixed;
+
 }
 
 .container{
 
     background-color:white;
-    width:500px;
+    width:50%;
 
 }
 
@@ -33,4 +33,53 @@ body{
     color:white;
     font: 8px;
     text-align:center;
+}
+
+.card{
+
+    width: 80%;
+
+}
+
+.BDPphoto{
+
+    width: 35%;
+}
+
+.accordion_text{
+
+    width: 80%;
+
+}
+
+.pathosonic{
+
+    margin-right: 20%;
+    margin-top: -43%;
+    float:right;
+
+}
+
+.card-header{
+
+    justify-content: center;
+
+}
+
+.form-control{
+
+    width: 80%;
+}
+
+.portCard{
+
+    width: 45%;
+    height: 45%;
+
+}
+
+.portCardText{
+
+    font-size: 15px;
+
 }
