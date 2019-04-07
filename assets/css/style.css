@@ -8,7 +8,7 @@ head{
 }
 
 body{
-
+    height: 100%;
     background-color: #dddddd;
 
 }
@@ -20,13 +20,30 @@ body{
 
 }
 
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
+    background-image: url("green-giph3.gif");
+    
+    width: 50%;
+  }
+
 .cont-header{
 
-    color:black;
+    color:whitesmoke;
     border-bottom-style:solid;
     border-bottom-color: darkgreen;
 
 }
+
+.card{
+
+    width: 100%;
+
+}
+
 .card-text{
 
     background-color:darkgreen;
@@ -35,46 +52,51 @@ body{
     text-align:center;
 }
 
-.card{
-
-    width: 80%;
-
-}
-
 .BDPphoto{
 
-    width: 35%;
-}
-
-.accordion_text{
-
-    width: 80%;
-
+    width: 60%;
 }
 
 .pathosonic{
 
-    margin-right: 20%;
-    margin-top: -43%;
+    margin-right: 00%;
+    margin-top: 0%;
     float:right;
+
+}
+
+.spotPlayer{
+
+    width: 260px;
+    height: 260px
+
+}
+
+.main_accordion{
+
+    display: flex;
+    justify-content: left;
+    margin-top: 0%;
 
 }
 
 .card-header{
 
-    justify-content: center;
+    width:100%;
 
 }
 
-.form-control{
+.card{
 
-    width: 80%;
+    border-color: green; 
+    width: 100%;   
+
 }
 
 .portCard{
 
-    width: 45%;
-    height: 45%;
+    /* height: 85px;
+    width: 55px; */
 
 }
 
@@ -84,25 +106,12 @@ body{
 
 }
 
-/* sticky footer styling */
+.form-control{
 
-/* https://css-tricks.com/snippets/css/sticky-footer/ */
-
-html,
-body {
-  height: 100%;
-}
-
-.wrapper {
-  height: auto !important;
-  height: 100%;
-  min-height: 100%;
-  margin: 0 auto -105px;
+    width: 80%;
 }
 
 footer,
 .push {
   height: 105px;
 }
-
-/* end sticky footer styling */
