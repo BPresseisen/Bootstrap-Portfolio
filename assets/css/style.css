@@ -54,9 +54,14 @@ body{
 
 .BDPphoto{
 
-    width: 60%;
+    width: 90%;
 }
 
+
+.iconDashboard{
+
+    width: 100%;
+}
 .pathosonic{
 
     margin-right: 00%;
@@ -93,10 +98,11 @@ body{
 
 }
 
-.portCard{
+.gitHub_icon{
 
-    /* height: 85px;
-    width: 55px; */
+    display:flex;
+    justify-content: space-evenly;
+
 
 }
 
@@ -104,6 +110,18 @@ body{
 
     font-size: 15px;
 
+}
+
+.moreInfo{
+
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.contactElements{
+
+    text-align: right;
 }
 
 .form-control{
