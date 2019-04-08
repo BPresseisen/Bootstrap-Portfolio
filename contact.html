@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <link href="assets/css/style.css" rel="stylesheet"/> 
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 
 </head>
 
@@ -52,22 +53,22 @@
         <form>
           <div class="form-group">
             <label for="exampleInputName">Name</label>
-            <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+            <input type="name" class="form-control fetch_results" id="exampleInputName" placeholder="Name">
           </div>
         
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control fetch_results" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
 
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control fetch_results" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
 
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input fetch_results" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Opt me out</label>
           </div>
 
@@ -98,6 +99,9 @@
       </div>
   
     </div>
+
+    <script src="assets/javascript/app.js"> </script>
+
 </body>
 
 </html>
