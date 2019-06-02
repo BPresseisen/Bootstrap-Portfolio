@@ -22,7 +22,6 @@
     var message = $("#exampleFormControlTextarea1").val();
     var optOut = $("#exampleCheck1").val();
     
-    // var nextTrain is a calculated field
     
     console.log("name is: " + name);
     console.log("email is: " + email);

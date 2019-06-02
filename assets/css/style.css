@@ -24,8 +24,8 @@ body{
 .icons{
 
     width : 150px;
-    height : 115 px;
-    margin-left: 35%;
+    height : 115px;
+    margin-left: 12.5%;
     margin-right: 15%;
     
 }
@@ -63,6 +63,12 @@ body{
 
 }
 
+.card-img-top{
+
+    width:132%;
+
+}
+
 .card-text{
 
     background-color:darkgreen;
@@ -73,8 +79,10 @@ body{
 
 .BDPphoto{
 
-    width: 15%;
+    width: 200px;
     height: 20%;
+    margin-left: 8.85%;
+    margin-top:2%;
 }
 
 .RR_giphy{
@@ -109,7 +117,8 @@ body{
     display: flex;
     justify-content: left;
     margin-top: 0%;
-    margin-left: 15px;
+    margin-left: 10%;
+    margin-right:10%;
 
 }
 
@@ -123,6 +132,12 @@ body{
 
     border-color: green; 
     width: 100%;   
+
+}
+
+.card-body{
+
+    z-index:1;
 
 }
 
@@ -157,15 +172,104 @@ body{
     width: 80%;
 }
 
-.row_footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: transparent;
-    text-align: center;
-    margin-right: 1%;
-    margin-left: 1%;
-    margin-bottom: 1%;
+.fixed-bottom{
+
+    z-index:-1;
 
 }
+
+.flexFooter{
+
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-evenly
+
+
+}
+
+
+/*
+  These rules take effect when the browser's width
+  is 980px.
+*/
+@media screen and (max-width: 1024px) {
+    /* The body's bg color will be #333 */
+    .container {
+      
+    }
+  
+    /* The wrapper's width will be 600px */
+    /* .wrapper {
+      width: 600px;
+    } */
+  }
+  
+  /*
+    These rules take effect when the browser's width
+    is either 768px or less.
+  */
+  @media screen and (max-width: 812px) {
+    /* The body's bg color will be #333 */
+    .container {
+      width: 100%;
+    }
+  
+    .flexFooter{
+
+        font-size:10px;
+    }
+
+    .card-img-top{
+
+        margin-left: 2px;
+        width:90%;
+    
+    }
+
+    .container{
+
+        margin-left:0px;
+
+    }
+
+    .main_accordion{
+
+        margin-left: 50px;
+    }
+
+    .icons{
+
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-right: 0%
+
+    }
+
+    .portCardText{
+
+        font-size:10px;
+
+    }
+
+    .wrapper{
+
+        margin-bottom: 90px;
+
+    }
+  }
+  /*
+    These rules take effect when the browser's width
+    is 640px.
+  */
+  /* @media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    /* body {
+      background-color: #333;
+    }
+  
+    /* The wrapper's width will be 600px */
+    /* .wrapper {
+      width: 600px;
+    }
+  } */ 
